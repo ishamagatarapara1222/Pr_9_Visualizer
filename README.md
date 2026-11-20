@@ -1,106 +1,91 @@
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=14B8A6&center=true&vCenter=true&width=650&lines=Personal+Journal+Manager;Your+Thoughts%2C+Your+Private+Space;Built+with+Python+%F0%9F%90%8D" />
-
-# 📔 Personal Journal Manager
-
-### A Simple Python File Handling Project
-
+<div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=14B8A6&center=true&vCenter=true&width=650&lines=Welcome+to+Visualizer;Explore+Data+with+Python;Turn+Numbers+into+Insights+%F0%9F%93%8A" alt="Typing SVG" />📊 Visualizer
+A Beginner-Friendly Data Analysis & Visualization Project
 <p>
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Project-PR--6--File--Operator-14B8A6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Storage-Text%20Files-orange?style=for-the-badge" />
-</p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-Charts-11557c?style=for-the-badge" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-4c72b0?style=for-the-badge" alt="Seaborn">
+</p>Analyze • Explore • Visualize
+</div>🧠 About The Project
+Visualizer is a simple Python command-line project that helps users explore and understand sales data. It uses Pandas to read and manage CSV files and Matplotlib and Seaborn to create charts.
 
-**Write • Read • Search • Manage**
+This project was made as a learning project to practice Python, data analysis and data visualization in a simple way.
+✨ Features
+- 📂 Load Dataset – Read sales records from a CSV file.
+- 🔍 Explore Data – View the first five rows, dataset information and description.
+- 🔎 Search Products – Find records using product names.
+- ↕️ Sort & Filter – Sort sales and filter records by sales amount.
+- 🧹 Handle Missing Data – Check missing values, remove rows or fill empty values with 0.
+- 📈 Sales Statistics – Calculate total, average, highest and lowest sales.
+- 📊 Create Charts – Generate bar charts, line charts, scatter plots and histograms.
+- 🎨 Statistical Charts – Create heatmaps and box plots using Seaborn.
+- 💾 Save Results – Save updated data as a CSV file.
+🛠️ Built With
+Technology	Purpose
+Python	Main programming language
+Pandas	Reading and analyzing data
+Matplotlib	Creating graphs
+Seaborn	Creating statistical charts
+CSV	Storing sample sales data
 
-</div>
 
----
-
-## 🧠 About The Project
-
-Personal Journal Manager is a simple Python-based command-line application that helps users manage their personal journal entries using text files.
-
-This project is created as part of **LMS Project-6** to understand Python file handling and exception handling.
-
-## ✨ Features
-
-- 📝 **Add Entry** – Write and save journal entries.
-- 📖 **Read Entries** – View previously saved entries.
-- 🔍 **Search Entry** – Search for specific content.
-- 🗑️ **Wipe Data** – Clear saved journal data.
-- 💾 **File Handling** – Store information using text files.
-- 🛡️ **Exception Handling** – Handle errors using try-except.
-
-## ⚙️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Python | Main Programming Language |
-| File Handling | Store and manage data |
-| TXT Files | Data Storage |
-| Try-Except | Error Handling |
-
-## 🚀 How To Run
-
-**Step 1:** Clone the repository
-
-```bash
-git clone YOUR_REPOSITORY_LINK
-```
-
-**Step 2:** Open the project folder
-
-```bash
-cd PR_6_File-Operator
-```
-
-**Step 3:** Run the Python program
-
-```bash
-python main.py
-```
-
-## 📂 Project Structure
-
-```text
-PR_6_File-Operator/
+📁 Project Structure
+Visualizer/
 │
 ├── main.py
-├── journal.txt
-└── README.md
-```
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── sales_data.csv
+│
+└── outputs/          # Created when saving charts or data
+🚀 Getting Started
+1. Clone the Repository
+git clone YOUR_REPOSITORY_LINK
+2. Open the Project Folder
+cd Visualizer
+3. Install Required Libraries
+pip install -r requirements.txt
+4. Run the Program
+python main.py
+🖥️ Main Menu
+After running the program, choose an option from the menu:
+1. Load Dataset
+2. Explore Data
+3. Data Operations
+4. Handle Missing Data
+5. Generate Statistics
+6. Matplotlib Visualization
+7. Seaborn Visualization
+8. Save Dataset
+9. Exit
+📊 Visualizations
+Chart	Purpose
+Bar Chart	Compare product-wise sales
+Line Chart	View sales over time
+Scatter Plot	Compare quantity and sales
+Histogram	Understand sales distribution
+Heatmap	View correlation between numeric columns
+Box Plot	Understand data spread
 
-## 🎯 Learning Outcomes
 
-Through this project, I learned:
+📦 Sample Dataset
+The project includes data/sales_data.csv, a sample sales dataset with columns such as:
 
-- How to create and work with files in Python.
-- How to read and write data in text files.
-- How to search information from stored data.
-- How to use try-except blocks.
-- How to handle common file-related errors.
-
-## 👨‍💻 Project Information
-
-| Detail | Information |
-|---|---|
-| Project | PR-6 File Operator |
-| Project Name | Personal Journal Manager |
-| Language | Python |
-| Project Type | Command Line Application |
-| Developed For | LMS Project-6 |
-
----
-
-<div align="center">
-
-### 💚 Made with Python
-
-**Learning Python, One Project at a Time! 🐍**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:134E4A&height=100&section=footer" />
-
-</div>
+Order_ID, Date, Product, Category, Region, Quantity, Unit_Price, Sales and Profit.
+🎯 What I Learned
+- Reading and working with CSV files using Pandas.
+- Exploring, sorting and filtering data.
+- Handling missing values.
+- Calculating basic statistics.
+- Creating charts with Matplotlib and Seaborn.
+- Organizing a Python project.
+📌 Note
+- Run main.py from the project folder so the dataset path works correctly.
+- Load the dataset before using the other menu options.
+- The included CSV file contains sample data for practice.
+- The animated heading and badges need an internet connection to load on GitHub.
+<div align="center">💚 Made with Python
+Learning Data Analysis, One Chart at a Time!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:134E4A&height=110&section=footer" alt="Footer banner" /></div>
