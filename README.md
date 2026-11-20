@@ -1,133 +1,106 @@
-# Pr_9_Visualizer
-
-# 🚢 Titanic Survival Analysis
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Exploring+the+Titanic+Dataset;Data+Analysis+with+Python;Finding+Patterns+in+Passenger+Survival;Learning+Data+Visualization!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=14B8A6&center=true&vCenter=true&width=650&lines=Personal+Journal+Manager;Your+Thoughts%2C+Your+Private+Space;Built+with+Python+%F0%9F%90%8D" />
 
-<br/>
+# 📔 Personal Journal Manager
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
+### A Simple Python File Handling Project
 
-<br/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Project-PR--6--File--Operator-14B8A6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Storage-Text%20Files-orange?style=for-the-badge" />
+</p>
 
-**A Beginner-Friendly Python Data Analysis Project**
+**Write • Read • Search • Manage**
 
 </div>
 
 ---
 
-## 🌊 About The Project
+## 🧠 About The Project
 
-The Titanic Survival Analysis project explores passenger data from the famous Titanic ship disaster.
+Personal Journal Manager is a simple Python-based command-line application that helps users manage their personal journal entries using text files.
 
-Using Python, this project analyzes passenger information and discovers patterns related to survival based on gender, age, and passenger class.
+This project is created as part of **LMS Project-6** to understand Python file handling and exception handling.
 
-## 🎯 Project Objectives
+## ✨ Features
 
-- Analyze passenger survival rates.
-- Compare survival rates between male and female passengers.
-- Understand survival patterns across passenger classes.
-- Explore passenger age distribution.
-- Create meaningful data visualizations.
+- 📝 **Add Entry** – Write and save journal entries.
+- 📖 **Read Entries** – View previously saved entries.
+- 🔍 **Search Entry** – Search for specific content.
+- 🗑️ **Wipe Data** – Clear saved journal data.
+- 💾 **File Handling** – Store information using text files.
+- 🛡️ **Exception Handling** – Handle errors using try-except.
 
-## ⚡ Features
+## ⚙️ Technologies Used
 
-| Feature | Description |
+| Technology | Purpose |
 |---|---|
-| 📂 Data Loading | Load Titanic dataset using Pandas |
-| 🧹 Data Cleaning | Check and handle missing values |
-| 📊 Data Analysis | Analyze survival information |
-| 👥 Gender Analysis | Compare survival by gender |
-| 🎫 Class Analysis | Compare survival by passenger class |
-| 📈 Visualization | Generate five different charts |
+| Python | Main Programming Language |
+| File Handling | Store and manage data |
+| TXT Files | Data Storage |
+| Try-Except | Error Handling |
 
-## 🛠️ Built With
+## 🚀 How To Run
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- NumPy (not required in the current code)
-
-## 📸 Project Visualizations
-
-The project generates the following visualizations:
-
-1. Survival Count
-2. Survival Rate by Gender
-3. Survival Rate by Passenger Class
-4. Passenger Age Distribution
-5. Correlation Heatmap
-
-## 🚀 Getting Started
+**Step 1:** Clone the repository
 
 ```bash
 git clone YOUR_REPOSITORY_LINK
 ```
 
-```bash
-cd Titanic_Survival_Analysis
-```
-
-Install the required libraries:
+**Step 2:** Open the project folder
 
 ```bash
-pip install -r requirements.txt
+cd PR_6_File-Operator
 ```
 
-Run the project:
+**Step 3:** Run the Python program
 
 ```bash
 python main.py
 ```
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
-Titanic_Survival_Analysis/
+PR_6_File-Operator/
 │
-├── data/
-├── output/
 ├── main.py
-├── requirements.txt
+├── journal.txt
 └── README.md
 ```
 
-## 📚 What I Learned
+## 🎯 Learning Outcomes
 
-- Working with CSV datasets.
-- Using Pandas for data manipulation.
-- Handling missing values.
-- Performing basic Exploratory Data Analysis (EDA).
-- Creating charts using Matplotlib and Seaborn.
+Through this project, I learned:
 
-## 👨‍💻 About Me
+- How to create and work with files in Python.
+- How to read and write data in text files.
+- How to search information from stored data.
+- How to use try-except blocks.
+- How to handle common file-related errors.
 
-<div align="center">
+## 👨‍💻 Project Information
 
-### Hi, I'm Isha! 👋
-
-🎓 Computer Engineering Student
-
-💻 Learning Python & Data Analysis
-
-🌱 Exploring the world of AI & Machine Learning
-
-</div>
+| Detail | Information |
+|---|---|
+| Project | PR-6 File Operator |
+| Project Name | Personal Journal Manager |
+| Language | Python |
+| Project Type | Command Line Application |
+| Developed For | LMS Project-6 |
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for Visiting!
+### 💚 Made with Python
 
-**If you find this project interesting, don't forget to give it a star!**
+**Learning Python, One Project at a Time! 🐍**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:134E4A&height=100&section=footer" />
 
 </div>
